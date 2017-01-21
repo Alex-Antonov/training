@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.noveogroup.java.util.ValueGeneratorTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE! - in com.noveogroup.java.util.ValueGeneratorTest
+testNextWordFail(com.noveogroup.java.util.ValueGeneratorTest)  Time elapsed: 0.001 sec
+testNextEmail(com.noveogroup.java.util.ValueGeneratorTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.noveogroup.java.util.ValueGeneratorTest.testNextEmail(ValueGeneratorTest.java:39)
+
+testNextDate(com.noveogroup.java.util.ValueGeneratorTest)  Time elapsed: 0 sec
+testNextWord(com.noveogroup.java.util.ValueGeneratorTest)  Time elapsed: 0 sec
